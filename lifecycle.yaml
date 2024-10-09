@@ -6,3 +6,6 @@ environment:
     - name: 'lc-test'
       repository: 'vigneshrajsb/lc-test'
       branch: 'main'
+    - name: 'redpanda'
+      repository: 'vigneshrajsb/lc-test'
+      branch: 'main'
