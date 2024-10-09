@@ -1,0 +1,8 @@
+---
+version: '1.1.0'
+
+environment:
+  defaultServices:
+    - name: 'lc-test'
+      repository: 'vigneshrajsb/lc-test'
+      branch: 'main'
