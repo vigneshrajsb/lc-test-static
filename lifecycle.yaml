@@ -12,3 +12,14 @@ environment:
     - name: 'backend-cache'
       repository: 'vigneshrajsb/backend-svc'
       branch: 'main'
+
+  webhooks:
+    - state: 'deployed'
+      type: 'codefresh'
+      name: 'lfc: deployed'
+      description: 'Lifecycle deployed webhook'
+      pipelineId: '6716ee061897917c1bf1ab5c'
+      trigger: 'deploy-lfc'
+      env:
+        branch: 'main'   
+        ENV: 'lifecycle'
