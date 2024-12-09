@@ -10,5 +10,5 @@ environment:
       repository: 'vigneshrajsb/backend-svc'
       branch: 'main'
     - name: 'backend-cache'
-      repository: 'vigneshrajsb/backend-cache'
+      repository: 'vigneshrajsb/backend-svc'
       branch: 'main'
