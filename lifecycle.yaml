@@ -15,3 +15,6 @@ environment:
     - name: 'cf-build'
       repository: 'vigneshrajsb/lc-test'
       branch: 'main'
+    - name: 'grpc-echo'
+      repository: 'vigneshrajsb/lc-test'
+      branch: 'main'
